@@ -168,3 +168,20 @@
     padding-right: 2rem;
   }
 }
+
+.plan-your_trip {
+  margin-top: 1rem;
+}
+
+.album-text {
+  margin-left: 2rem;
+}
+
+.album_large-text {
+  font-size: 40px;
+}
+.album_small-text {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 0%;
+}
