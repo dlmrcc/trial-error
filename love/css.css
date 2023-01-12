@@ -1,0 +1,59 @@
+.bg-img-container {
+  position: relative;
+}
+.bg-img-container img {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+#second {
+  /* width: 50%;
+  height: 50%; */
+  margin: auto;
+  position: absolute;
+  top: 8rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-largetext {
+  font-size: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero-smalltext {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #second {
+    top: 1.5rem;
+  }
+  .hero-largetext {
+    font-size: 2.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin: 10px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
